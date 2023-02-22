@@ -15,6 +15,6 @@ class AboutController extends Controller
             }
 
     public function articles($id) {
-            return "Halaman Artikel ke ($id)";
+        return "Halaman Artikel ke ($id)";
                 }
 }

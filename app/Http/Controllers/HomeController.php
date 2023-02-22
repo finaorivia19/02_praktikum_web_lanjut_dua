@@ -10,11 +10,11 @@ class HomeController extends Controller
         return 'Selamat Datang';
         }
 
-    public function about() {
-            return '2141720256 -- Fina Orivia Nurfadillah';
-            }
+    // public function about() {
+    //         return '2141720256 -- Fina Orivia Nurfadillah';
+    //         }
 
-    public function articles($id) {
-            return "Halaman Artikel ke ($id)";
-                }
+    // public function articles($id) {
+    //         return "Halaman Artikel ke ($id)";
+    //             }
 }
